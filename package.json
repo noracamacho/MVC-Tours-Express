@@ -1,0 +1,28 @@
+{
+  "name": "mvc-tours-express",
+  "version": "1.0.0",
+  "description": "RESTful API with Mongodb, Express and Node js",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js",
+    "test": "standard"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/noracamacho/MVC-Tours-Express.git"
+  },
+  "keywords": [
+    "Mongodb",
+    "Express",
+    "NodeJs"
+  ],
+  "author": "Nora Camacho",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/noracamacho/MVC-Tours-Express/issues"
+  },
+  "homepage": "https://github.com/noracamacho/MVC-Tours-Express#readme",
+  "dependencies": {
+    "swagger-ui-express": "^4.0.2"
+  }
+}
