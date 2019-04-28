@@ -24,5 +24,8 @@
   "homepage": "https://github.com/noracamacho/MVC-Tours-Express#readme",
   "dependencies": {
     "swagger-ui-express": "^4.0.2"
+  },
+  "engines": {
+    "node": "10.x"
   }
 }
