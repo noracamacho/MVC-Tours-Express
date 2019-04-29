@@ -21,6 +21,7 @@ En la siguiente tabla se muestran los PATHS:
 | ------------- | ------------- | ------------- |
 | GET  | /api/tours |  GET ALL  |
 | GET  | /api/tours/:id | GET BY ID  |
+| GET  | /api/tours/names/:name | GET BY NAME  |
 | ADD  |  /api/tours |  ADD ONE  |
 | DELETE  |  /api/tours/:id |  DELETE ONE  |
 
