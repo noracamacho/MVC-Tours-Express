@@ -18,6 +18,29 @@ MVC es uno de los patrones de arquitectura más utilizados en el desarrollo web,
 
 #### Importación de colecciones
 1.- Se realizó la importación de las colecciones tour, restaurants y postal (códigos postales del estado de México) a MongoDb Atlas, está se hizo por medio de la terminal de comandos.
-
 ![](Images/Imagen1.png)
+
+2.- Se confirma que las colecciones efectivamente se encuentren en la base de datos learning_mongo en MongoDB Atlas.
+![](Images/Imagen2.png)
+
+3.- Se realizó la instalación de las librerías requeridas mediante el uso de la terminal de comandos: 
+![](Images/Imagen3.png)
+
+4.- Generamos las estructura MVC (Modelo Vista Controlador) en nuestro espacio de trabajo de Visual Estudio Code:
+![](Images/Imagen4.png)
+
+5.- En el archivo /MVC/app.js se escribe el requerimiento de librerías y drivers, la configuración del Web Server y parsee de datos.
+![](Images/Imagen5.png)
+
+6.- Una vez configurado el Web Server, se verificó el mensaje de encendido.
+![](Images/Imagen6.png)
+
+7.- Dentro de la carpeta modelos creamos el archivo tours.js. Este lo editamos y creamos el modelo de la API.
+![](Images/Imagen7.png)
+
+8.- Se escribió el código de las API en el archivo MVC/controllers/admin.js (GET, POSTy DELETE).
+![](Images/Imagen8.png)
+
+
+
 
