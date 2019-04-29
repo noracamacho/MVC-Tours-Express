@@ -91,4 +91,21 @@ En la siguiente tabla se muestran los PATHS:
 ![](Images/Imagen21.png)
 
 ### 22.- En la consola, regresa el Id del objeto junto con la confirmación de eliminación exitosa.
-![](Images/Imagen21.png)
+![](Images/Imagen22.png)
+
+### 23.- Creamos la carpeta userdata y el archivo users.js, en archivo users.js declaramos los usuarios que tendrán los permisos para utilizar los métodos (GET,ADD,DELETE).
+![](Images/Imagen23.png)
+
+### 24.- Creamos el archivo basicauth.js, el cuál valida si el usuario cuenta con los permisos.
+![](Images/Imagen24.png)
+
+### 25.- Modificamos el archivo admin.js, agregando la solicitud de validación de usuario en los PATHS.
+![](Images/Imagen25.png)
+
+### 26.- En Postman, agregamos el PATH del método, seleccionamos la pestaña “Authorization”, tipo de autorización básica (Basic Auth), se agrega el usuario y contraseña.
+![](Images/Imagen26.png)
+
+### 27.- Si el usuario cuenta con los permisos, el método es ejecutado, realizando la operación solicitada, caso contrario.
+![](Images/Imagen27.png)
+
+
