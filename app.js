@@ -16,11 +16,11 @@ app.use(bodyParser.json());
 
 //3.- Definir paths disponibles
 app.get('/', (req, res) => {res.send('Mongo Express.... Please use /api/tours');});
-app.get('/api/tours', auth, TourController.inq);
-app.get('/api/tours/:id', auth, TourController.inqId);
-app.get('/api/tours/names/:name', auth, TourController.inqByName);
-app.post('/api/tours', auth, TourController.add);
-app.delete('/api/tours/:id', auth, TourController.delete);
+app.get('/api/tours', TourController.inq);
+app.get('/api/tours/:id', TourController.inqId);
+app.get('/api/tours/names/:name', TourController.inqByName);
+app.post('/api/tours', TourController.add);
+app.delete('/api/tours/:id', TourController.delete);
 
 //4.- Encender webserver y dbserver
 app.listen(port, () => {
