@@ -10,7 +10,6 @@ var auth = basicauth.auth;
 
 //2.-Configurar web server y parsee los datos
 const app = express();
-//const port = 3000;
 var port = process.env.PORT || 3000;
 app.use(bodyParser.json());
 
