@@ -26,7 +26,7 @@ En la siguiente tabla se muestran los PATHS:
 | DELETE  |  /api/tours/:id |  DELETE ONE  |
 
 
-### Creación de las API
+## Creación de las API
 #### 1.- Se realizó la importación de las colecciones tour, restaurants y postal (códigos postales del estado de México) a MongoDb Atlas, está se hizo por medio de la terminal de comandos.
 ![](Images/Imagen1.jpg)
 
