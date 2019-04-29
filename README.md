@@ -18,4 +18,5 @@ MVC es uno de los patrones de arquitectura más utilizados en el desarrollo web,
 
 #### Importación de colecciones
 1.- Se realizó la importación de las colecciones tour, restaurants y postal (códigos postales del estado de México) a MongoDb Atlas, está se hizo por medio de la terminal de comandos.
+![API Keys](images/Image1.jpg)
 
