@@ -93,6 +93,16 @@ En la siguiente tabla se muestran los PATHS:
 ### 22.- En la consola, regresa el Id del objeto junto con la confirmación de eliminación exitosa.
 ![](Images/Imagen22.png)
 
+En la siguiente tabla se muestran los usuarios y contraseña:
+
+| USUARIO  | CONTRASEÑA |
+| ------------- | ------------- |
+| userstudent1  | student111 |
+| userstudent2  | student222 |
+| userstudent3  | student333 |
+| userstudent4  | student444 |
+| userteacher  |  teacher123 |
+
 ### 23.- Creamos la carpeta userdata y el archivo users.js, en archivo users.js declaramos los usuarios que tendrán los permisos para utilizar los métodos (GET,ADD,DELETE).
 ![](Images/Imagen23.png)
 
@@ -107,5 +117,3 @@ En la siguiente tabla se muestran los PATHS:
 
 ### 27.- Si el usuario cuenta con los permisos, el método es ejecutado, realizando la operación solicitada, caso contrario.
 ![](Images/Imagen27.png)
-
-
