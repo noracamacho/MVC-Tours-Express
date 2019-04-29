@@ -15,7 +15,7 @@ REST ( Representational State Transfer) es una arquitectura basada en el estánd
 En la siguiente tabla se muestran los PATHS:
 
 | MÉTODO  | PATH |  OPERACIÓN  |
-| ------------- | ------------- |
+| ------------- | ------------- | ------------- |
 | GET  | /api/tours |  GET ALL  |
 | GET  | /api/tours/:id | GET BY ID  |
 | ADD  |  /api/tours |  ADD ONE  |
