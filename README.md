@@ -12,6 +12,9 @@ REST ( Representational State Transfer) es una arquitectura basada en el estánd
 >> - __PUT: Actualiza / modifica recursos.__
 >> - __DELETE: Eliminar recursos.__
 
+## Arquitectura MVC
+MVC es uno de los patrones de arquitectura más utilizados en el desarrollo web, esta se divide en  Modelo, Vista y Controlador. En el Modelo, la estructura de la base de datos. En el controlador, la lógica. En la vista, la interfaz de usuario.
+
 En la siguiente tabla se muestran los PATHS:
 
 | MÉTODO  | PATH |  OPERACIÓN  |
@@ -22,10 +25,7 @@ En la siguiente tabla se muestran los PATHS:
 | DELETE  |  /api/tours/:id |  DELETE ONE  |
 
 
-## Arquitectura MVC
-MVC es uno de los patrones de arquitectura más utilizados en el desarrollo web, esta se divide en  Modelo, Vista y Controlador. En el Modelo, la estructura de la base de datos. En el controlador, la lógica. En la vista, la interfaz de usuario.
-
-### Importación de colecciones
+### Creación de las API
 #### 1.- Se realizó la importación de las colecciones tour, restaurants y postal (códigos postales del estado de México) a MongoDb Atlas, está se hizo por medio de la terminal de comandos.
 ![](Images/Imagen1.jpg)
 
